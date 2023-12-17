@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- PapaParse -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loja Virtual - Produtos</title>
+</head>
+<body>
+    <div>
+        <button onclick="sortProductsAsc()">Ordenar por Preço Ascendente</button>
+        <button onclick="sortProductsDesc()">Ordenar por Preço Descendente</button>
+    </div>
+    
+    <div class="grid-container" id="product-grid"></div>
+    <script src="script.js"></script>
+<script>
+    // Exibe os produtos na página ao carregar
+    window.onload = displayProducts;
+</script>
+
+
+    <script src="babydolls.js"></script>
+</body>
+</html>
